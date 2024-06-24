@@ -90,11 +90,11 @@
 
         layer_Layer__5 {
             bindings = <
- &trans    &trans    &trans      &trans    &trans    &trans            &trans                                                  &trans     &trans     &trans         &trans  &trans  &trans  &trans
- &trans    &trans    &trans      &trans    &trans    &trans            &trans                                                  &trans     &trans     &trans         &trans  &trans  &trans  &trans
- &trans  &kp LBKT  &kp LBRC  &kp DOLLAR  &kp RBRC  &kp RBKT            &trans  &trans  &trans                  &trans  &trans  &trans  &kp CARET  &kp EQUAL  &kp BACKSLASH  &trans  &trans  &trans
- &trans    &trans    &trans      &trans    &trans    &trans                            &trans                  &trans                     &trans   &kp PLUS       &kp PIPE  &trans  &trans  &trans
- &trans    &trans    &trans      &trans    &trans                      &trans  &trans  &trans                  &trans  &trans  &trans                &trans         &trans  &trans  &trans  &trans
+ &trans           &trans    &trans      &trans    &trans    &trans            &trans                                                  &trans     &trans     &trans         &trans  &trans  &trans  &trans
+ &trans           &trans    &trans      &trans    &trans    &trans            &trans                                                  &trans     &trans     &trans         &trans  &trans  &trans  &trans
+ &trans         &kp LBKT  &kp LBRC  &kp DOLLAR  &kp RBRC  &kp RBKT            &trans  &trans  &trans                  &trans  &trans  &trans  &kp CARET  &kp EQUAL  &kp BACKSLASH  &trans  &trans  &trans
+ &trans  &kp EXCLAMATION    &trans      &trans    &trans    &trans                            &trans                  &trans                     &trans   &kp PLUS       &kp PIPE  &trans  &trans  &trans
+ &trans           &trans    &trans      &trans    &trans                      &trans  &trans  &trans                  &trans  &trans  &trans                &trans         &trans  &trans  &trans  &trans
             >;
         };
 
