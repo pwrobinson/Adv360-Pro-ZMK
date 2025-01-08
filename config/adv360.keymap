@@ -19,6 +19,74 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
+  combos {
+        compatible = "zmk,combos";
+        combo_lcmd {
+            timeout-ms = <50>;
+            key-positions = <75 76>; // up down
+            bindings = <&kp RGUI>;
+        };
+        combo_lbracket {
+            timeout-ms = <50>;
+            key-positions = <49 50>; // cv
+            bindings = <&kp LEFT_BRACKET>;
+        };
+        combo_lbrace {
+            timeout-ms = <50>;
+            key-positions = <37 38>; // df
+            bindings = <&kp LEFT_BRACE>;
+        };
+        combo_rbracket {
+            timeout-ms = <50>;
+            key-positions = <49 50 41>; // cvj
+            bindings = <&kp RIGHT_BRACKET>;
+        };
+        combo_rbrace {
+            timeout-ms = <50>;
+            key-positions = <37 38 41>; // dfj
+            bindings = <&kp RIGHT_BRACE>;
+        };
+        combo_colon {
+            timeout-ms = <50>;
+            key-positions = <60 61>; // ,.
+            bindings = <&kp COLON>;
+        };
+        combo_underscore {
+            timeout-ms = <50>;
+            key-positions = <76 77>; // down [
+            bindings = <&kp CARET>;
+        };
+        combo_plus {
+            timeout-ms = <50>;
+            key-positions = <42 59>; // mk
+            bindings = <&kp PLUS>;
+        };
+        combo_tilde {
+            timeout-ms = <50>;
+            key-positions = <66 67>; // END left
+            bindings = <&kp GRAVE>;
+        };
+        // combo_esc {
+        //    timeout-ms = <50>;
+        //    key-positions = <41 42>; // jk
+        //    bindings = <&kp ESC>;
+        // };
+        combo_rt {
+            timeout-ms = <50>;
+            key-positions = <29 30>; // ui
+            bindings = <&kp DOUBLE_QUOTES>;
+        };
+        combo_home {
+            timeout-ms = <50>;
+            key-positions = <26 27>; // rt
+            bindings = <&kp HOME>;
+        };
+        combo_end {
+            timeout-ms = <50>;
+            key-positions = <28 29>; // yu
+            bindings = <&kp END>;
+        };
+    };
   behaviors {
     #include "macros.dtsi"
     #include "version.dtsi"
